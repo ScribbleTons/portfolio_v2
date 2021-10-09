@@ -12,7 +12,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1em 4em;
+  padding: 1em 2em;
   background-color: white;
   gap: 2em;
 }
@@ -193,8 +193,8 @@
   background-color: #d8d2d2;
   opacity: 0.6;
   position: absolute;
-  left: -6em;
-  top: -5em;
+  left: -3em;
+  top: -8em;
   border-radius: 100%;
   width: 17em;
   height: 17em;
@@ -298,6 +298,8 @@
   .hero-section .left .element-gray {
     width: 14em;
     height: 14em;
+    left: -3em;
+    top: -8em;
   }
   .hero-section .left .custom-btn {
     margin-top: 1em;
@@ -348,7 +350,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1240px) {
   .left {
     width: 100%;
   }
@@ -363,12 +365,12 @@
     top: -2em;
   }
   .socials {
-    right: -26em !important;
+    right: -22em !important;
     bottom: -22em;
   }
   .hero-image {
     position: absolute;
-    top: 6em;
+    top: 7em;
     left: 33em;
     display: block;
     z-index: 2;
@@ -379,6 +381,9 @@
 }
 
 @media only screen and (min-width: 1240px) {
+  .navigation {
+    width: 95%;
+  }
   .sub-group {
     position: relative;
     top: 1em;
@@ -393,13 +398,13 @@
     font-size: 1.5rem !important;
   }
   .element-gray {
-    left: -8em;
-    top: -2em;
+    left: -8em !important;
+    top: -2em !important;
   }
   .hero-image {
     position: absolute;
-    top: 7em;
-    left: 45em !important;
+    top: 7.1em;
+    left: 48em !important;
     display: block;
     z-index: 2;
   }
@@ -712,7 +717,7 @@ body {
 nav {
   position: fixed;
   top: 0;
-  width: 90%;
+  width: 92%;
   z-index: 300;
 }
 
