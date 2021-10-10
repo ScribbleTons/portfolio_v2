@@ -298,7 +298,7 @@
   .hero-section .left .sub-group {
     position: relative;
     top: 0em;
-    left: 6em;
+    left: 38%;
     width: 80%;
   }
   .hero-section .left .element-gray {
@@ -308,8 +308,7 @@
     top: -8em;
   }
   .hero-section .left .custom-btn {
-    margin-top: 1em;
-    margin-bottom: 2em;
+    margin:1.5em;
   }
   .hero-section .right .element-blue {
     bottom: -9em;
