@@ -131,12 +131,12 @@
 
 .hero-subtext {
   padding: 0 1.5em;
-  font-size: 1.22rem;
+  font-size: 1.5em;
 }
 
 .sub-group {
   position: relative;
-  top: -1em;
+  top: 1em;
   left: 1em;
   width: 76%;
 }
