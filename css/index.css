@@ -724,7 +724,7 @@ body {
 nav {
   position: fixed;
   top: 0;
-  width: 92%;
+  width: 95% !important;
   z-index: 300;
 }
 
