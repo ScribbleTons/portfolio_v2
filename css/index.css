@@ -15,6 +15,7 @@
   padding: 1em 2em;
   background-color: white;
   gap: 2em;
+  padding-right: 2%;
 }
 
 .navigation .menu-icon {
@@ -26,6 +27,14 @@
   margin-right: .5em;
 }
 
+.resume {
+  background-color: rgba(40, 73, 221, 0.904);
+  color: white !important;
+  padding: .3em;
+  border-radius: 10px;
+  font-size: 17px !important;
+}
+
 .nav-items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,6 +42,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: auto 2em;
 }
 
 .nav-item {
@@ -408,13 +418,13 @@
   }
   .hero-image {
     position: absolute;
-    top: 7.1em;
-    left: 48em !important;
+    top: 6.9em;
+    left: 55em !important;
     display: block;
     z-index: 2;
   }
   .hero-image img {
-    width: 21.7em !important;
+    width: 22.4em !important;
   }
 }
 
@@ -423,7 +433,7 @@
   top: 0;
   width: 100%;
   margin: auto;
-  padding-bottom: 1em;
+  padding-bottom: 4em;
   background-color: #fafbfd;
 }
 
@@ -724,7 +734,7 @@ body {
 nav {
   position: fixed;
   top: 0;
-  width: 95% !important;
+  width: 96% !important;
   z-index: 300;
 }
 
